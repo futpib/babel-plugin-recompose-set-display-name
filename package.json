@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-recompose-set-display-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "homepage": "https://github.com/futpib/babel-plugin-recompose-set-display-name",
+  "ava": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "babel-core": "^6.26.3",
+    "coveralls": "^3.0.6",
+    "eslint-config-xo-overrides": "^1.4.0",
+    "nyc": "^14.1.1",
+    "xo": "^0.25.3"
+  },
+  "xo": {
+    "extends": [
+      "eslint-config-xo-overrides"
+    ]
+  }
+}
